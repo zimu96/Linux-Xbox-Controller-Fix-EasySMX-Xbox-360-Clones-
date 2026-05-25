@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# EasySMX / Xbox Controller Fix Script v2.0
+# EasySMX / Xbox Controller Fix Script.
 # Resolves issues where generic Xbox 360 clone controllers (like ESM-9101) 
 # are not detected because of driver blacklisting (e.g., by xone)
 # AND fixes the "4 blinking LEDs" issue via software USB reset.
