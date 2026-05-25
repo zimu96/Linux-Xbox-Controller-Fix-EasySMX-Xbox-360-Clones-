@@ -5,7 +5,7 @@
 # are not detected because of driver blacklisting (e.g., by xone)
 # AND fixes the "4 blinking LEDs" issue via software USB reset.
 
-echo "--- Xbox Controller Fixer v2.0 ---"
+echo "--- Xbox Controller Fixer. ---"
 
 # 1. Remove blacklists that prevent xpad from loading
 echo "[1/3] Removing driver blacklists & managing modules..."
