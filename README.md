@@ -5,7 +5,7 @@ This project provides a simple fix for Xbox 360 clone controllers (like **EasySM
 ## The Problem
 Modern Linux drivers like `xone` often **blacklist** the default kernel driver `xpad`. Additionally, generic receivers often get stuck with **"4 blinking LEDs"** and require a physical unplug/replug to be correctly assigned as "Player 1".
 
-## The Solution (v3.0)
+## The Solution
 The script now performs a **Software-Simulated Physical Re-plug**. It doesn't just reset the USB; it virtually "detaches" and "reattaches" the device via the Linux kernel's USB authorization system.
 
 Key features:
